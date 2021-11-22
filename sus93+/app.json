@@ -2,9 +2,11 @@
   "title":"sus93plus",
   "type":"js",
   "files":[
-    "index.js"
+    "index.js",
+    "install.js"
   ],
   "main":"index.js",
   "version":[1,0,0],
-  "description":"Install sus93+ with appMan!"
+  "description":"Install sus93+ with appMan!",
+  "inst":"install.js"
 }
