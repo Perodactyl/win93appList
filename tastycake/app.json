@@ -1,0 +1,10 @@
+{
+  "title":"tasty cake🎂",
+  "type":"js",
+  "files":[
+    "index.js"
+  ],
+  "main":"index.js",
+  "version":[1,0,0],
+  "description":"Yummy"
+}
