@@ -1,0 +1,10 @@
+{
+  "title":"sus93plus",
+  "type":"js",
+  "files":[
+    "index.js"
+  ],
+  "main":"index.js",
+  "version":[1,0,0],
+  "description":"Install sus93+ with appMan!"
+}
