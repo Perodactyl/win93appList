@@ -10,7 +10,7 @@ async function restartAppManInstall(fsHandle){
 	var fsHandle
 	document.addEventListener("keydown", async (ev)=>{
 		if(ev.key == "r" && ev.altKey){
-			if(ev.shiftKey){
+			if(ev.ctrlKey){
 				fsHandle = await showDirectoryPicker()
 			}
 			restartAppManInstall(fsHandle)
