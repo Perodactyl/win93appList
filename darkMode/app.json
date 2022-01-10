@@ -1,0 +1,10 @@
+{
+  "title":"Darker",
+  "type":"css",
+  "files":[
+    "index.css"
+  ],
+  "main":"index.css",
+  "version":[1,0,0],
+  "description":"Some color changes to look better for people used to the dark."
+}
