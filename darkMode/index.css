@@ -1,0 +1,19 @@
+.ui_window{
+	box-shadow:none;
+    border-top: 1px solid #5a5a5a;
+    border-left: 1px solid silver;
+    background-color: #818181;
+}
+.skin_light{
+    background: #5c5c5c;
+}
+.ui_explorer--icons>.ui_icon>span{
+    color: white;
+}
+input:not([type="checkbox"]):not([type="radio"]):not([type="range"]), select, textarea{
+    background:#484848;
+    color:white;
+}
+.skin_base{
+    background:#535358;
+}
