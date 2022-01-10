@@ -1,0 +1,26 @@
+<span id="bgConfigPanel">
+  <select id="BgType" onchange="updateBG()">
+    <option value="lin">Linear</option>
+    <option value="rad">Radial</option>
+    <option value="reprad">Repeating Radial</option>
+    <option value="replin">Repeating Linear</option>
+  </select>
+  <input type="range" min="0" max="360" id="BgDeg" onMouseMove="updateBG()"/>
+  <section>
+  	<button onclick="addBGColor()">+</button><button onclick="saveBG()">Save</button><button onclick="loadBG()">Load</button>
+  </section>
+  <ol id="bgColors"></ol>
+  <style>
+    #bgConfigPanel section{
+      position: sticky;
+      top: -4px;
+      z-index: 0;
+      padding: 5px;
+      background: #9d9d9d;
+      border-radius: 5px;
+    }
+    #bgConfigPanel{
+      overflow:hidden;
+    }
+  </style>
+</span>

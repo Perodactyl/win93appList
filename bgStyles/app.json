@@ -1,0 +1,11 @@
+{
+  "title":"bgStyles",
+  "type":"app",
+  "files":[
+    "index.js",
+    "index.html"
+  ],
+  "main":"index.js",
+  "version":[1,0,0],
+  "description":"Background styling"
+}
