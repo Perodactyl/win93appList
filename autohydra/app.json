@@ -6,5 +6,6 @@
   ],
   "main":"index.js",
   "version":[1,0,0],
-  "description":"A small examplary virus."
+  "description":"A small examplary virus.",
+  "volatile":true
 }
